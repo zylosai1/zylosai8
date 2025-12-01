@@ -1,1 +1,18 @@
-node_modules
+# Environments
+.venv/
+venv/
+
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# Secrets
+
+# Database files
+
+
+# OS-specific
