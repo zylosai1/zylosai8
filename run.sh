@@ -5,7 +5,7 @@ echo "────────────────────────�
 
 BACKEND_DIR="./ZylosBackend"
 FRONTEND_DIR="./ZylosWeb"
-INIT_DB_SCRIPT="scripts/init_db.py"
+INIT_DB_SCRIPT="ZylosBackend/scripts/init_db.py"
 
 # BACKEND
 echo "📌 Checking backend environment..."
