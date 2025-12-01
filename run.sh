@@ -21,7 +21,7 @@ echo "📦 Installing backend dependencies..."
 pip install -r requirements.txt > /dev/null 2>&1
 
 echo "🗄  Initializing database (if required)..."
-python3 ./scripts/init_db.py
+python3 ./ZylosBackend/scripts/init_db.py
 
 echo "🔥 Starting Backend FastAPI server..."
 uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload > ../backend.log 2>&1 &
